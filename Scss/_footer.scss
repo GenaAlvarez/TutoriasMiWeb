@@ -1,0 +1,17 @@
+.footer{
+    background: linear-gradient( to top, $bg-color, $titleColor );
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    p{
+        color: $bg-color;
+        font-size: 30px;
+        align-self: center;
+        text-shadow: #fff;
+    }
+    img{
+        height: 200px;
+        justify-self: center;
+        align-self: center;
+    }
+}

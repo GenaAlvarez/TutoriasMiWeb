@@ -1,0 +1,67 @@
+.infoContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 40px;
+        margin-top: 100px;
+
+        i {
+            font-size: 100px;
+            color: $titleColor;
+
+            &:hover {
+                color: #c3c6cb;
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+.comunityRedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 40px;
+    margin-top: 100px;
+}
+.containerRedes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    width:100%;
+    p{
+        color: $titleColor;
+        text-shadow: #000 1px 1px;
+        font-size: 20px;
+        width:80%;
+    }
+    i{
+        padding: 10px;
+        font-size: 100px;
+        color: $titleColor;
+    }
+    }
+    #discord{
+        &:hover{
+            transform: scale(1.2);
+            color: #5865f2;
+        }
+    }
+    #telegram{
+        &:hover{
+            transform: scale(1.2);
+            color: #32b5e1;
+        }
+    }
+    #whatsapp{
+        &:hover{
+            transform: scale(1.2);
+            color: #3cdf5a;
+        }
+    }

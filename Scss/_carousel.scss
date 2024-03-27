@@ -1,0 +1,16 @@
+.carouselContainer img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.titleCarousel {
+    font-size: 80px;
+    color: $titleColor;
+    text-shadow: #c3c6cb 2px 1px;
+    margin-bottom: 160px;
+}
+.descriptionCarousel {
+    font-size: 30px;
+    text-shadow: #c3c6cb 2px 1px;
+}

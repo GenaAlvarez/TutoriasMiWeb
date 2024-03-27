@@ -1,0 +1,1 @@
+const buttonCard1 = document.getElementById
